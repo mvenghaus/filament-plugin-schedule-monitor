@@ -6,7 +6,7 @@ With this plugin, you can display the data from [spatie/laravel-schedule-monitor
 
 ![Screenshot 1](https://raw.githubusercontent.com/mvenghaus/filament-plugin-schedule-monitor/main/docs/images/screenshot1.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/mvenghaus/filament-plugin-schedule-monitor/main/docs/images/screenshot1.png)
+![Screenshot 2](https://raw.githubusercontent.com/mvenghaus/filament-plugin-schedule-monitor/main/docs/images/screenshot2.png)
 
 ## Requirements
 
