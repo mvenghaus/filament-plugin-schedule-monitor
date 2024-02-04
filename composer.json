@@ -23,8 +23,7 @@
   ],
   "require": {
     "php": "^8.2",
-    "spatie/laravel-schedule-monitor": "^3.5.0",
-    "calebporzio/sushi": "^2.4.5"
+    "spatie/laravel-schedule-monitor": "^3.5.0"
   },
   "autoload": {
     "psr-4": {

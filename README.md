@@ -23,4 +23,4 @@ php artisan vendor:publish --tag="filament-schedule-monitor-config"
 ```
 
 # Contact
-If you any questions or you find a bug, please [contact me via email](mailto:support@inklammern.de).
+If you any questions or you find a bug, please report [here](https://github.com/mvenghaus/filament-plugin-schedule-monitor/issues).
