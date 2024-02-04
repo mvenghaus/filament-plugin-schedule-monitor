@@ -1,0 +1,46 @@
+{
+  "name": "mvenghaus/filament-plugin-schedule-monitor",
+  "description": "Filament Plugin for Spatie's Schedule Monitor",
+  "keywords": [
+    "mvenghaus",
+    "laravel",
+    "filament",
+    "schedule",
+    "monitor"
+  ],
+  "homepage": "https://github.com/mvenghaus/filament-plugin-schedule-monitor",
+  "support": {
+    "issues": "https://github.com/hofstein/filament-plugin-schedule-monitor/issues",
+    "source": "https://github.com/hofstein/filament-plugin-schedule-monitor"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marcus Venghaus",
+      "email": "marcus.venghaus@inklammern.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "spatie/laravel-schedule-monitor": "^3.5.0",
+    "calebporzio/sushi": "^2.4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mvenghaus\\FilamentScheduleMonitor\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mvenghaus\\FilamentScheduleMonitor\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
