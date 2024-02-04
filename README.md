@@ -4,6 +4,10 @@ With this plugin, you can display the data from [spatie/laravel-schedule-monitor
 
 ## Screenshots
 
+![Screenshot 1](https://raw.githubusercontent.com/mvenghaus/filament-plugin-schedule-monitor/main/docs/images/screenshot1.png)
+
+![Screenshot 2](https://raw.githubusercontent.com/mvenghaus/filament-plugin-schedule-monitor/main/docs/images/screenshot1.png)
+
 ## Requirements
 
 You need the latest version of Filament v3.
@@ -14,6 +18,14 @@ Install the package via composer:
 
 ```bash
 composer require mvenghaus/filament-plugin-schedule-monitor:"^3.0"
+```
+
+Register the plugin in AdminPanelProvider:
+
+```bash
+...
+->plugin(\Mvenghaus\FilamentScheduleMonitor\FilamentPlugin::make())
+...
 ```
 
 Publishing the config (optional):
