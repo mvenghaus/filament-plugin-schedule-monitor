@@ -1,4 +1,4 @@
-# Filament Plugin - Translatable Inline
+# Filament Plugin - Schedule Monitor
 
 With this plugin, you can display the data from [spatie/laravel-schedule-monitor](https://github.com/spatie/laravel-schedule-monitor) in your Filament panel.
 
