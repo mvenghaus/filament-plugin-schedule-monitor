@@ -17,6 +17,12 @@ You need the latest version of Filament v3.
 Install the package via composer:
 
 ```bash
+composer require spatie/laravel-schedule-monitor
+php artisan vendor:publish --provider="Spatie\ScheduleMonitor\ScheduleMonitorServiceProvider" --tag="schedule-monitor-migrations"
+php artisan migrate
+```
+
+```bash
 composer require mvenghaus/filament-plugin-schedule-monitor:"^3.0"
 ```
 
